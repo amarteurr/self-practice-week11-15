@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITB-ECoRS</title>
+    <script type="module" src="./main.js"></script>
+    <link rel="stylesheet" crossorigin href="./style.css">
+</head>
+
+<body>
+    <dialog closedby="none" class="ecors-dialog">
+        <p class="ecors-dialog-message"></p>
+    </dialog>
+
+    <header>
+        <img src="/intproj25/ft/itb-ecors/SITLogo.png" style="height: 50px; width: 230px" alt="University Logo"
+            class="logo" />
+        <h1>Study Plan Declaration and Course Reservation</h1>
+        <div class="user-info">
+            <span id="userFullName"></span>
+            <button id="btnLogin">Sign In</button>
+        </div>
+    </header>
+
+
+    <main>
+        <secion id="majorListSection" class="section">
+            <h2>B.Sc.IT - Study Plans</h2>
+            <div id="majorList">
+                <table border="1" cellspacing="0" cellpadding="8">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Student Code</th>
+                            <th>English Name</th>
+                            <th>Thai Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </secion>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 School of Information Technology, KMUTT</p>
+    </footer>
+
+</body>
+
+</html>
